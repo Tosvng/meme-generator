@@ -42,10 +42,10 @@ export default function Meme() {
           name="bottomText"
           onChange={handleChange}
         />
+        <button className="form-button" onClick={handleClick}>
+          Get a new image
+        </button>
       </div>
-      <button className="form-button" onClick={handleClick}>
-        Get a new image
-      </button>
 
       <div className="meme">
         <p className="meme-text top">{meme.topText}</p>
